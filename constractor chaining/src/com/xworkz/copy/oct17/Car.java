@@ -46,12 +46,14 @@ public void display() {
 		System.out.println(Car);
 	}
 	//
-	for (int i = 0; i < this.shoeroomname.length; i++) {
+	for (int i = 0; i < this.shoeroomname.length; i++) 
+	{
 		String Car=shoeroomname[i];
 		System.out.println(Car);
 	}
 	//
-	for (int i = 0; i < this.usersname.length; i++) {
+	for (int i = 0; i < this.usersname.length; i++)
+	{
 		String Car=usersname[i];
 		System.out.println(Car);
 	}
