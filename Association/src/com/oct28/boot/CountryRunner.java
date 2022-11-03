@@ -28,7 +28,7 @@ public class CountryRunner {
 		//
 		
 		City[] city= {city1,city2};
-		country.setCities(city);
+		country.setCities(city);s
 		country.display();
 		
 		

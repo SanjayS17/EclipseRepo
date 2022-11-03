@@ -7,6 +7,9 @@ public class State {
 	public String cmname;
 	public long noofpeople;
 	
+	public State() {
+		
+	}
 	public State(String name,String oldName,String cmname,long noofpeople)
 	{
 		this.name=name;

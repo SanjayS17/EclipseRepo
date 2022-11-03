@@ -7,6 +7,9 @@ public class Country {
 	public String Cityname;
 	public double areaInSquareKilometer;
 	
+	public Country() {
+		
+	}
 	public Country(String name,String Presidentname,String Cityname, double AreaInSquareKilometer) 
 	{
 		

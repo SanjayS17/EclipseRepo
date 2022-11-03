@@ -7,6 +7,9 @@ public class City {
 	public double areaInSquareKilometer;
 	public int number;
 	
+	public City() {
+		
+	}
 	public City(String name,String capitalCity,double areaInSquareKilometer,int number) 
 	{
 		this.name=name;
