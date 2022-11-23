@@ -119,17 +119,17 @@ public class WaterBottle {
 	  if(obj instanceof WaterBottle) {
 		  WaterBottle casted=(WaterBottle)obj;
 		  if(this.brand.equals(casted.brand)&&
-				  this.color.equals(color)&&
+				  this.color.equals(casted.color)&&
 				  this.type.equals(type)) {
+			  System.out.println("brand is equal");
 			  return true;
 			  
 		  }
 			  
 		  
 	  }else {
-		  System.out.println("brand is equal");
-		  System.out.println("color is equal");
-		  System.out.println("type is equal");
+		  System.out.println("brand is not  equal");
+		
 		  
 	  }
 	  return false;

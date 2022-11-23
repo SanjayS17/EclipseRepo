@@ -93,18 +93,18 @@ public class Vehicle {
 				+ ", weight=" + weight + ", height=" + height + "]";
 	}
 	public boolean equals(Object objt) {
-		if(objt instanceof Paint) {
+		if(objt instanceof Vehicle ) {
 			Vehicle casted=(Vehicle) objt;
 			if(this.brand.equals(casted.brand)&&
-					this.color.equals(color)) {
+					this.color.equals(casted.color)) {
+				System.out.println("brand and color is equal");
 				return true;
 			}
 		}
 		else
 		{
-			System.out.println("brand is equal");
-			System.out.println("color is equal");
-			
+			System.out.println("brand and color is not equal");
+	
 		}
 		return false;
 		

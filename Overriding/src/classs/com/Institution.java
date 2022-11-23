@@ -122,9 +122,12 @@ public class Institution {
 	public boolean equals(Object obj) {
 		if (obj instanceof Institution) {
 			Institution cast3 = (Institution) obj;
-			if (this.location.equals(cast3.location) && this.name.equals(name) && this.owner.equals(owner)
-					&& this.principalName.equals(principalName) && this.instituteDistrict.equals(instituteDistrict)
-					&& this.Chairman.equals(Chairman)) {
+			if (this.location.equals(cast3.location) && 
+					this.name.equals(cast3.name) &&
+					this.owner.equals(cast3.owner)
+					&& this.principalName.equals(cast3.principalName) && 
+					this.instituteDistrict.equals(cast3.instituteDistrict)&&
+					this.Chairman.equals(cast3.Chairman)) {
 				System.out.println("location name owner principalname instistutedistrict chairman id is equal");
 				return true;
 

@@ -124,13 +124,13 @@ public class LipStick {
 		if(obj instanceof LipStick) {
 			LipStick cast5=(LipStick)obj;
 			if(this.color.equals(cast5.color)&&
-					this.countryOrigin.equals(countryOrigin)&&
+					this.countryOrigin.equals(cast5.countryOrigin)&&
 					this.duration==cast5.duration&&
-					this.finish.equals(finish)&&
-					this.genericName.equals(genericName)&&
-					this.name.equals(name)&&
+					this.finish.equals(cast5.finish)&&
+					this.genericName.equals(cast5.genericName)&&
+					this.name.equals(cast5.name)&&
 					this.price==cast5.price&&
-					this.texture.equals(texture)) 
+					this.texture.equals(cast5.texture)) 
 			{
 				System.out.println("above statements ore true");
 				return true;

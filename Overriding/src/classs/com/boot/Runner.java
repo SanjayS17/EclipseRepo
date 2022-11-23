@@ -2,6 +2,7 @@ package classs.com.boot;
 
 import classs.com.Currency;
 import classs.com.God;
+import classs.com.Hospital;
 import classs.com.Institution;
 import classs.com.LipStick;
 
@@ -23,7 +24,7 @@ public class Runner {
                God god=new God("shiva","male","natraj","murdeshvara","shivatemple",100,true,100,200,true);
                System.out.println(god);
                
-               God god1=new God("shiva","male","natraj","murdeshvara","shivatemple",100,true,100,200,true);
+               God god1=new God("hfdd","male","natraj","murdeshvara","shivatemple",100,true,100,200,true);
                System.out.println(god1);
                
                boolean deva =god.equals(god1);
@@ -45,12 +46,24 @@ public class Runner {
                System.out.println(lipstick);
                
 
-               LipStick lipstick1=new LipStick("lipstick","transparent","lipbalm","goodfinish","red","india","Smashbox","more",100.34,100);
+               LipStick lipstick1=new LipStick("sap"," nontranceparent","balmlip","goodfinish","red","india","Smashbox","more",100.34,100);
                System.out.println( lipstick1);
                
               boolean lip=lipstick.equals(lipstick1);
               System.out.println(lip);
+              System.out.println("=========");
+              
+              Hospital Hospital=new Hospital("narayan","bangalore","arun","male","bones","dvg","dvg",577546,567493,12);
+              System.out.println(Hospital);
+              
+              Hospital Hospital1=new Hospital("narayan","bangalore","arun","male","bones","dvg","dvg",577544,567463,11);
+              System.out.println(Hospital1);
+              
+              boolean hosp=Hospital.equals(Hospital1);
+              System.out.println(hosp);
                
 	}
 
 }
+
+

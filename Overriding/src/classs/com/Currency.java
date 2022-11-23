@@ -120,11 +120,11 @@ public class Currency {
 	
 	public boolean equals(Object obj) {
 		if(obj instanceof Currency) {
-			Currency casted1=(Currency)obj;
-			if(this.Brand.equals(casted1.Brand)&&
-					this.color.equals(color)&&
-					this.type.equals(type)&&
-					this.name.equals(name)) {
+			Currency cast1=(Currency)obj;
+			if(this.Brand.equals(cast1.Brand)&&
+					this.color.equals(cast1.color)&&
+					this.type.equals(cast1.type)&&
+					this.name.equals(cast1.name)) {
 				System.out.println("brand color type name is equal");
 				return true;
 			}

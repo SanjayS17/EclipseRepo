@@ -116,7 +116,9 @@ public class Paint {
 	public boolean equals(Object objt) {
 		if(objt instanceof Paint) {
 			Paint casted=(Paint)objt;
-			if(this.brand.equals(casted.brand)&&this.color.equals(color)) {
+			if(this.brand.equals(casted.brand)&&
+					this.color.equals(casted.color)) {
+				System.out.println("brand is equal");
 				return true;
 				
 			}
@@ -124,7 +126,7 @@ public class Paint {
 	
 	
 	else {
-		System.out.println("brand is equal");
+		System.out.println("brand is not  equal");
 	}
 	return false;
 }

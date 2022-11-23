@@ -123,11 +123,11 @@ public class Hospital {
 		if(obj instanceof Hospital) {
 			Hospital cast4=(Hospital)obj;
 			if(this.doctorGender.equals(cast4.doctorGender)&&
-					this.doctorName.equals(doctorName)&&
-					this.hospitalDistrict.equals(hospitalDistrict)&&
-					this.hospitalTaluk.equals(hospitalTaluk)&&
-					this.location.equals(location)&&
-					this.name.equals(name)) {
+					this.doctorName.equals(cast4.doctorName)&&
+					this.hospitalDistrict.equals(cast4.hospitalDistrict)&&
+					this.hospitalTaluk.equals(cast4.hospitalTaluk)&&
+					this.location.equals(cast4.location)&&
+					this.name.equals(cast4.name)) {
 				System.out.println("String properties are equal");
 				return true;
 			}

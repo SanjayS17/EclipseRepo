@@ -123,13 +123,19 @@ public class God {
 	public boolean equals(Object obj) {
 		if (obj instanceof God) {
 			God cast2 = (God) obj;
-			if (this.priestName.equals(cast2.priestName) && this.gender.equals(gender) && this.location.equals(location)
-					&& this.name.equals(name) && this.templeName.equals(templeName)) {
-				System.out.println("priestName gender location name templeName is equal");
+			if (this.priestName.equals(cast2.priestName) &&
+					this.gender.equals(cast2.gender) && 
+					this.location.equals(cast2.location)&&
+					this.name.equals(cast2.name) &&
+					this.templeName.equals(cast2.templeName)) {
+				System.out.println("priestName,gender,location,name,templeName are same");
 				return true;
+			}else {
+				System.out.println("priestName,gender,location,name,templeName are not same");
 			}
+			return false;
 		} else {
-			System.out.println("priestName gender location name templeName is not equal");
+			System.out.println("other is not God cannot check the properties");
 		}
 		return false;
 
