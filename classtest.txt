@@ -1,0 +1,114 @@
+
+6)what is the difference between linkedlist and array list in java.
+ans->
+       ArrayList                                         linkedlist
+       1)array are stored in contaguous location         1)linkedlist are not stored in  contaguous location 
+       2)fixed in size                                   2)not fixed in size
+       3)memory is allocated at compile time             3)memory is allocated atrun time
+       4)elements can be accessed easily                 4)element accessing requires the traversel of whole linked list
+-----------------------------------------------------------------------------------------------------------------------------------------
+7)what is the difference between listiterator and iterator in java.
+ans-> 
+        Iterater                                            listiterater  
+        1)can do remove operation only on elements          1)can remove,add and replace elements
+        2)methods is remove()                               2)methods are remove(),add() and set()
+        3)iterator()method returns an object of Iterator    3)listiterater() method returns an object of ListIterator
+        4)only in forword direction                         4)forword and reverse order 
+-----------------------------------------------------------------------------------------------------------------------------------------
+1)
+ans->
+
+package com.xworkz;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+public class MaxMinRunner {
+
+	public static void main(String[] args) {
+
+		Collection<Integer> collection=new ArrayList<Integer>();
+		
+		collection.add(45);
+		collection.add(333);
+		collection.add(76);
+		collection.add(29);
+		collection.add(900);
+		collection.add(23);
+		collection.add(474);
+		collection.add(654);
+		collection.add(29);
+		collection.add(454);
+		
+		System.out.println("max "+Collections.max(collection));
+		System.out.println("min "+Collections.min(collection));
+		
+		
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------
+10)explain static polymorphism and dynamic polymorphism.
+ans->
+      static polymorphism:
+
+    * a type of polymorphism that collects the information to call a method during compile time.
+    * accurs at compile time.
+    * known as ststic binding and early binding.
+    * execution speed is high.
+    * method overloading is an example of static binding.
+ 
+     dynamic polymorphism:
+
+    * a type of polymorphism that collects information to call a method at run time.
+    * occurs at the run time.
+    * it is known as dynamic bynding and late binding.
+    * execution speed is low.
+    * method overriding is an example of dynamic binding.
+---------------------------------------------------------------------------------------------
+3)what are the generalised and specialized classes in java.
+ans->
+generalized:
+* which converts a sub class into a super class is called generalised.
+* this is also called as up casting.
+
+specialized:
+* which converts a super class into sub class is called specialized.
+* this is also called as down casting.
+------------------------------------------------------------------------------------------
+5)which sorted collection have you used.
+ans->
+
+# <<comparable>> interface.
+# <<comparater>> interface.
+
+* java.util.collection. sort() method is present in java.util.collections.
+* it is used to sort the elemets present in the specified list of collection in ascending order.
+-------------------------------------------------------------------------------------------------
+8)what is the covarient method overriding in java.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
