@@ -11,7 +11,7 @@ public class AreaOfCircle {
 		double pi=3.142;
 		int r=3;
 		double c=pi*r;
-		System.out.println("the value of pi*r is "+c);
+		System.out.println("the value of pi*r is "+c); 
 		return c;
 		
 	}
